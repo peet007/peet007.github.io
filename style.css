@@ -1,0 +1,82 @@
+.background {
+  display: flex;
+  justifey-content: start;
+  width: 1200px;
+  height: 300px;
+  background: no-repeat center/90% url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  margin: auto;
+ 
+}
+
+.text {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ margin: auto;
+ margin-top: 160px;
+ margin-left: 300px;
+ list-style-type: none;
+  
+}
+
+.h3 {
+  font-size: 30px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  margin-bottom: 0;
+  
+}
+
+.h1 {
+  font-size: 48px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  margin-top: 0;
+}
+
+p {
+  margin: 0px;
+  font-size: 20px;
+  padding: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.elsosor::first-line {
+  font-weight: bold;
+}
+
+#felsorolas {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 60px;
+}
+
+.idezetbox {
+  background: #2F4F4F;
+  width: 730px;
+  height: 140px;
+  margin: auto;
+}
+
+.idezet {
+  color: white;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+
+.idezet::before {
+  content: '”';
+  position: sticky;
+}
+
+.foszoveg {
+  margin: auto;
+  margin-top: 60px;
+}
+
+.minden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
