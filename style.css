@@ -12,7 +12,6 @@
  display: flex;
  flex-direction: column;
  justify-content: flex-start;
- color: green;
  margin: auto;
  margin-top: 160px;
  margin-left: 300px;
@@ -23,7 +22,8 @@
 .h3 {
   font-size: 30px;
   font-family: 'Abril Fatface', cursive;
-  color: #222;
+  color: green;
+  /*color: #222;*/
   margin-bottom: 0;
   
 }
